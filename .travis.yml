@@ -19,4 +19,4 @@ script:
   - mvn install -q -nsu -Dmaven.test.redirectTestOutputToFile=true -P '!integration'
 
 after_success:
-  - mvn clean cobertura:cobertura org.eluder.coveralls:coveralls-maven-plugin:report
+  - bash <(curl -s https://codecov.io/bash)
