@@ -72,6 +72,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
 	</dependencies>
 	
 	<dependencyManagement>
@@ -92,6 +93,14 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+            <plugin>
+                <groupId>org.eluder.coveralls</groupId>
+                <artifactId>coveralls-maven-plugin</artifactId>
+                <version>3.2.0</version>
+                <configuration>
+                    <repoToken>yourcoverallsprojectrepositorytoken</repoToken>
+                </configuration>
+            </plugin>
 		</plugins>
 	</build>
 
