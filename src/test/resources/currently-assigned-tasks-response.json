@@ -1,0 +1,98 @@
+{
+
+  "expand": "names,schema",
+  "startAt": 0,
+  "maxResults": 50,
+  "total": 1,
+  "issues":
+
+  [
+
+    {
+
+      "expand": "editmeta,renderedFields,transitions,changelog,operations",
+      "id": "49624",
+      "self": "https://jira.xstream.dk/rest/api/2/issue/49624",
+      "key": "MM-2409",
+      "fields":
+
+      {
+
+        "summary": "PNG image handling",
+        "customfield_10800":
+
+        {
+
+          "self": "https://jira.xstream.dk/rest/api/2/customFieldOption/13304",
+          "value": "44018-MediaMaker - bugs & minors",
+          "id": "13304"
+
+        },
+        "worklog":
+        {
+
+          "startAt": 0,
+          "maxResults": 20,
+          "total": 1,
+          "worklogs":
+
+          [
+
+            {
+
+              "self": "https://jira.xstream.dk/rest/api/2/issue/49624/worklog/27490",
+              "author":
+
+              {
+
+                "self": "https://jira.xstream.dk/rest/api/2/user?username=artur.borodziej",
+                "name": "artur.borodziej",
+                "key": "artur.borodziej",
+                "emailAddress": "artur.borodziej@xstream.dk",
+                "avatarUrls":
+
+                {
+                  "16x16": "https://jira.xstream.dk/secure/useravatar?size=xsmall&ownerId=artur.borodziej&avatarId=16900",
+                  "24x24": "https://jira.xstream.dk/secure/useravatar?size=small&ownerId=artur.borodziej&avatarId=16900",
+                  "32x32": "https://jira.xstream.dk/secure/useravatar?size=medium&ownerId=artur.borodziej&avatarId=16900",
+                  "48x48": "https://jira.xstream.dk/secure/useravatar?ownerId=artur.borodziej&avatarId=16900"
+                },
+                "displayName": "Artur Borodziej",
+                "active": true,
+                "timeZone": "Europe/Copenhagen"
+
+              },
+              "updateAuthor":
+              {
+
+                "self": "https://jira.xstream.dk/rest/api/2/user?username=artur.borodziej",
+                "name": "artur.borodziej",
+                "key": "artur.borodziej",
+                "emailAddress": "artur.borodziej@xstream.dk",
+                "avatarUrls":
+
+                {
+                  "16x16": "https://jira.xstream.dk/secure/useravatar?size=xsmall&ownerId=artur.borodziej&avatarId=16900",
+                  "24x24": "https://jira.xstream.dk/secure/useravatar?size=small&ownerId=artur.borodziej&avatarId=16900",
+                  "32x32": "https://jira.xstream.dk/secure/useravatar?size=medium&ownerId=artur.borodziej&avatarId=16900",
+                  "48x48": "https://jira.xstream.dk/secure/useravatar?ownerId=artur.borodziej&avatarId=16900"
+                },
+                "displayName": "Artur Borodziej",
+                "active": true,
+                "timeZone": "Europe/Copenhagen"
+              },
+              "comment": "",
+              "created": "2015-08-26T22:11:03.000+0200",
+              "updated": "2015-08-26T22:11:03.000+0200",
+              "started": "2015-08-26T21:00:00.000+0200",
+              "timeSpent": "7h 15m",
+              "timeSpentSeconds": 26100,
+              "id": "27490"
+            }
+          ]
+        }
+      }
+    }
+  ]
+
+}
