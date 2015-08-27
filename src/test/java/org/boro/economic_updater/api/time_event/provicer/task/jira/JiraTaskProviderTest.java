@@ -37,7 +37,7 @@ public class JiraTaskProviderTest {
         assertThat(task.getUri(), is("http://jira-host.com/browse/MM-2409"));
 
         //@TODO should be filled from worklog
-        assertThat(task.getDuration(), is(0.0F));
+//        assertThat(task.getDuration(), is(0.0F));
 
         SimpleDateFormat formatter = new SimpleDateFormat("yyyyMMdd");
         assertThat(formatter.format(task.getDate()), is(formatter.format(new Date())));
@@ -88,7 +88,5 @@ public class JiraTaskProviderTest {
         }
 
         return result.toString();
-
     }
-
 }
